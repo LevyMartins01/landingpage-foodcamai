@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGPD - FoodCam AI</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#4361EE',secondary:'#3F37C9'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0F172A;
+            color: #E2E8F0;
+        }
+        .text-gray-900 {
+            color: #E2E8F0 !important;
+        }
+        .text-gray-700, .text-gray-600 {
+            color: #CBD5E1 !important;
+        }
+        .text-gray-500, .text-gray-400 {
+            color: #94A3B8 !important;
+        }
+    </style>
+</head>
+<body class="bg-gray-900">
+    <!-- Header/Navigation -->
+    <header class="w-full py-4 px-6 bg-gray-800/80 backdrop-blur-lg border-b border-gray-700/50 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="Landing-Page.html" class="text-2xl font-bold text-primary">FoodCam AI</a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="Landing-Page.html#funcionalidades" class="text-gray-300 hover:text-primary transition-colors">Funcionalidades</a>
+                <a href="Landing-Page.html#como-funciona" class="text-gray-300 hover:text-primary transition-colors">Como Funciona</a>
+                <a href="Landing-Page.html#beneficios" class="text-gray-300 hover:text-primary transition-colors">Benefícios</a>
+                <a href="Landing-Page.html#depoimentos" class="text-gray-300 hover:text-primary transition-colors">Depoimentos</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="hidden md:block text-gray-700 hover:text-primary transition-colors">Entrar</a>
+                <a href="#" class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-opacity-90 transition-all whitespace-nowrap">Experimente Grátis</a>
+            </div>
+            <button class="md:hidden w-8 h-8 flex items-center justify-center">
+                <i class="ri-menu-line text-gray-700 ri-lg"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-16 px-6">
+        <section class="max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold text-white mb-8 text-center">Lei Geral de Proteção de Dados (LGPD)</h1>
+
+            <div class="bg-gray-800/50 p-8 rounded-lg mb-8">
+                <h2 class="text-2xl font-semibold text-white mb-4">Introdução à LGPD</h2>
+                <p class="text-gray-400 mb-4">A Lei Geral de Proteção de Dados (Lei nº 13.709/2018), ou LGPD, é a legislação brasileira que regula as atividades de tratamento de dados pessoais, incluindo coleta, armazenamento, uso e compartilhamento. Seu objetivo é proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.</p>
+                <p class="text-gray-400">A FoodCam AI está em total conformidade com a LGPD, garantindo a segurança e a privacidade dos seus dados pessoais.</p>
+            </div>
+
+            <div class="bg-gray-800/50 p-8 rounded-lg mb-8">
+                <h2 class="text-2xl font-semibold text-white mb-4">Princípios da LGPD</h2>
+                <p class="text-gray-400 mb-4">Nossas práticas de tratamento de dados são guiadas pelos princípios da LGPD, incluindo:</p>
+                <ul class="list-disc list-inside text-gray-400 mb-4 space-y-2">
+                    <li>**Finalidade:** Tratamento para propósitos legítimos, específicos e informados ao titular.</li>
+                    <li>**Adequação:** Compatibilidade do tratamento com as finalidades informadas.</li>
+                    <li>**Necessidade:** Limitação do tratamento ao mínimo necessário para a realização de suas finalidades.</li>
+                    <li>**Livre Acesso:** Garantia de consulta facilitada e gratuita sobre a forma e duração do tratamento.</li>
+                    <li>**Qualidade dos Dados:** Garantia de clareza, exatidão e atualização dos dados.</li>
+                    <li>**Transparência:** Informações claras e precisas sobre o tratamento dos dados.</li>
+                    <li>**Segurança:** Medidas técnicas e administrativas para proteger os dados.</li>
+                    <li>**Prevenção:** Adoção de medidas para prevenir a ocorrência de danos.</li>
+                    <li>**Não Discriminação:** Impossibilidade de tratamento para fins discriminatórios ilícitos ou abusivos.</li>
+                    <li>**Responsabilização e Prestação de Contas:** Demonstração da adoção de medidas eficazes e capazes de comprovar a observância e o cumprimento das normas de proteção de dados pessoais.</li>
+                </ul>
+            </div>
+
+            <div class="bg-gray-800/50 p-8 rounded-lg mb-8">
+                <h2 class="text-2xl font-semibold text-white mb-4">Seus Direitos como Titular de Dados</h2>
+                <p class="text-gray-400 mb-4">De acordo com a LGPD, você tem os seguintes direitos em relação aos seus dados pessoais:</p>
+                <ul class="list-disc list-inside text-gray-400 mb-4 space-y-2">
+                    <li>Confirmação da existência de tratamento.</li>
+                    <li>Acesso aos dados.</li>
+                    <li>Correção de dados incompletos, inexatos ou desatualizados.</li>
+                    <li>Anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a LGPD.</li>
+                    <li>Portabilidade dos dados a outro fornecedor de serviço ou produto.</li>
+                    <li>Eliminação dos dados pessoais tratados com o consentimento do titular.</li>
+                    <li>Informação das entidades públicas e privadas com as quais o controlador realizou uso compartilhado de dados.</li>
+                    <li>Informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa.</li>
+                    <li>Revogação do consentimento.</li>
+                </ul>
+                <p class="text-gray-400">Para exercer qualquer um desses direitos, entre em contato conosco através dos canais de suporte.</p>
+            </div>
+
+            <div class="bg-gray-800/50 p-8 rounded-lg">
+                <h2 class="text-2xl font-semibold text-white mb-4">Encarregado de Dados (DPO)</h2>
+                <p class="text-gray-400 mb-4">A FoodCam AI possui um Encarregado de Dados (Data Protection Officer - DPO) responsável por garantir a conformidade com a LGPD e atuar como canal de comunicação entre a FoodCam AI, os titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD).</p>
+                <p class="text-gray-400">Para questões relacionadas à LGPD, você pode contatar nosso DPO através dos emails de suporte: foodcamai@gmail.com e contato@lm7upgrade.com.br.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full py-12 bg-gray-800 text-white border-t border-gray-700/50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <a href="Landing-Page.html" class="text-2xl font-bold text-white mb-4 block">FoodCam AI</a>
+                    <p class="text-gray-400 mb-4">Transformando sua relação com a alimentação através da tecnologia e informação.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Empresa</h3>
+                    <ul class="space-y-2">
+                        <li><a href="sobre-nos.html" class="text-gray-400 hover:text-white transition-colors">Sobre Nós</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Carreiras</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Recursos</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Base de Conhecimento</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Comunidade</a></li>
+                        <li>
+                            <p class="text-gray-400 mb-2">Suporte:</p>
+                            <a href="mailto:foodcamai@gmail.com" class="text-gray-400 hover:text-white transition-colors block mb-1">foodcamai@gmail.com</a>
+                            <a href="mailto:contato@lm7upgrade.com.br" class="text-gray-400 hover:text-white transition-colors block">contato@lm7upgrade.com.br</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="Politicas-de-Privacidade.html" class="text-gray-400 hover:text-white transition-colors">Política de Privacidade</a></li>
+                        <li><a href="termos-de-uso.html" class="text-gray-400 hover:text-white transition-colors">Termos de Uso</a></li>
+                        <li><a href="Politicas-de-Cookies.html" class="text-gray-400 hover:text-white transition-colors">Política de Cookies</a></li>
+                        <li><a href="lgpd.html" class="text-gray-400 hover:text-white transition-colors">LGPD</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-gray-800 text-center md:flex md:justify-between md:items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2025 FoodCam AI. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
