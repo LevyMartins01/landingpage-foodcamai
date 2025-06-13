@@ -51,6 +51,13 @@ Este é um registro das principais modificações realizadas no projeto:
         *   Sobrenomes dos depoimentos (`Gabriela Martins`, `Rafael Oliveira`, `Carolina Santos`) removidos, deixando apenas o primeiro nome (`Gabriela`, `Rafael`, `Carolina`).
         *   Link "Sobre Nós" no rodapé de `Landing-Page.html` corrigido para `sobre-nos.html`.
 
+*   **13 de Junho de 2025 - Atualizações na Seção de Vídeo e Conteúdo:**
+    *   **Adição de Frase de Expectativa:**
+        *   Frase "Expectativa para os próximos anos" adicionada abaixo da seção de vídeo na `index.html`.
+    *   **Incorporação de Vídeo do YouTube:**
+        *   O placeholder de vídeo (tag `<video>` com `poster`) na `index.html` foi substituído por um `iframe` para incorporar um vídeo do YouTube (`https://www.youtube.com/embed/9Z2Xv_Nl4Do`).
+        *   A incorporação utiliza CSS inline (`style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"` no contêiner e `style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"` no iframe) para manter a proporção 16:9 e garantir que o vídeo preencha o espaço designado.
+
 ## 5. Manutenção e Atualizações
 
 É crucial manter esta documentação atualizada. **Após cada alteração significativa no código ou na estrutura do projeto, este documento deve ser revisado e atualizado** para refletir as novas modificações, tecnologias ou decisões de arquitetura. Isso garante que a documentação permaneça uma fonte de informação precisa e útil para todos os envolvidos no projeto.
