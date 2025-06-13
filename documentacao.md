@@ -57,6 +57,10 @@ Este é um registro das principais modificações realizadas no projeto:
     *   **Incorporação de Vídeo do YouTube:**
         *   O placeholder de vídeo (tag `<video>` com `poster`) na `index.html` foi substituído por um `iframe` para incorporar um vídeo do YouTube (`https://www.youtube.com/embed/9Z2Xv_Nl4Do`).
         *   A incorporação utiliza CSS inline (`style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"` no contêiner e `style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"` no iframe) para manter a proporção 16:9 e garantir que o vídeo preencha o espaço designado.
+    *   **Atualização de Depoimento:**
+        *   O texto do depoimento da "Carolina" na `index.html` foi alterado para focar no alcance de resultados através do monitoramento de alimentos e na menor necessidade de usar balança.
+    *   **Remoção de Funcionalidade:**
+        *   O card da funcionalidade "Alertas de Alérgenos" foi removido da seção "Funcionalidades" na `index.html`, pois o serviço ainda não está disponível.
 
 ## 5. Manutenção e Atualizações
 
