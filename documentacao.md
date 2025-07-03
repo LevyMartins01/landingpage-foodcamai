@@ -47,9 +47,32 @@ Este é um registro das principais modificações realizadas no projeto:
         *   Conteúdo genérico adicionado a `Politicas-de-Privacidade.html`, `termos-de-uso.html`, `Politicas-de-Cookies.html` e `lgpd.html`.
     *   **Otimização de Links e Botões:**
         *   Todos os botões de chamada para ação (`Experimente Grátis`, `Saiba Mais`, `Experimente Agora`, `Experimente o FoodCam AI`, `Crie Sua Conta`) na `Landing-Page.html` foram atualizados para direcionar para `https://foodcamai.com/auth`.
+*   **Janeiro de 2025 - Atualização de Links da Aplicação:**
+    *   Todos os botões que direcionam para o aplicativo foram atualizados para `https://oficial.foodcamai.com` em todos os arquivos HTML do projeto (`index.html`, `Landing-Page.html`, `sobre-nos.html`, `termos-de-uso.html`, `Politicas-de-Privacidade.html`, `Politicas-de-Cookies.html`, `lgpd.html`).
+
+*   **Janeiro de 2025 - Correção de Problemas Tipográficos e de Formatação:**
+    *   **Resolução de Conflitos de Git:** Removidos todos os marcadores de conflito de merge (`<<<<<<< HEAD`, `=======`, `>>>>>>> hash`) que estavam aparecendo no cabeçalho das páginas.
+    *   **Correção de Formatação Tipográfica:** Convertida toda formatação Markdown incorreta (`**texto**`) para HTML apropriado (`<strong>texto</strong>`) nas páginas de políticas legais.
+    *   **Limpeza do Favicon:** Corrigidos links duplicados e conflitantes do favicon em todos os arquivos HTML.
+    *   **Tipografia Profissional:** Garantida uma apresentação limpa e profissional em todas as páginas, removendo caracteres de formatação indevidos.
         *   Botões de download "App Store" e "Google Play" removidos da `Landing-Page.html` para simplificar o design.
         *   Sobrenomes dos depoimentos (`Gabriela Martins`, `Rafael Oliveira`, `Carolina Santos`) removidos, deixando apenas o primeiro nome (`Gabriela`, `Rafael`, `Carolina`).
         *   Link "Sobre Nós" no rodapé de `Landing-Page.html` corrigido para `sobre-nos.html`.
+
+*   **Janeiro de 2025 - Otimização do Footer e Informações de Suporte:**
+    *   **Adição de Emails de Suporte:** Incluídos os emails `foodcamai@gmail.com` e `contato@lm7upgrade.com.br` na seção "Recursos" do footer em `index.html` e `Landing-Page.html`.
+    *   **Melhorias na Estrutura do Footer:** Ajustada a estrutura do copyright e ícones de pagamento para melhor alinhamento e responsividade.
+    *   **Padronização de Footers:** Todos os footers das páginas legais (`termos-de-uso.html`, `Politicas-de-Privacidade.html`, `Politicas-de-Cookies.html`, `lgpd.html`) foram padronizados com a mesma estrutura da página principal, incluindo:
+        *   Redes sociais (Instagram, Facebook, Twitter/X, YouTube)
+        *   Emails de suporte organizados em seção própria
+        *   Ícones de pagamento (Visa, Mastercard, PayPal, Apple Pay)
+        *   Melhor alinhamento responsivo e estrutura visual consistente
+    *   **Unificação de Landing Pages:** Eliminada a duplicação entre `index.html` e `Landing-Page.html`:
+        *   Arquivo `Landing-Page.html` removido para evitar conteúdo duplicado
+        *   Todas as navegações de páginas legais agora direcionam para `index.html`
+        *   Melhor consistência de navegação e experiência do usuário
+        *   Eliminação de problemas de responsividade conflitantes entre as duas versões
+    *   **Atualização da Documentação:** README.md completamente reescrito com instruções detalhadas de como executar o projeto, tecnologias utilizadas e comandos úteis.
 
 *   **13 de Junho de 2025 - Atualizações na Seção de Vídeo e Conteúdo:**
     *   **Adição de Frase de Expectativa:**
